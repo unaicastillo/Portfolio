@@ -1,19 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
-    </head>
-    <body>
-        <a href="https://www.figma.com/design/ogcOQYvp1RrEPMYsx7VUHw/gu%C3%ADa-de-estilos-UnaiCastillo?node-id=0-1&t=ZtfD00AGRHeRAuMS-1">
-            guia de estilos
-        </a><br>
-        <a href=" https://unaicastillo.github.io/prototipo/">
-            prototipo
-        </a><br>
-        <a href="https://unaicastillo.github.io/kanban/">kanban</a>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Mi Portfolio</h1>
+        <p>Diseño Web - Proyectos</p>
+    </header>
+    
+    <main>
+        <div class="scene" id="scene-1">
+            <div class="project-content">
+                <h2>Guía de Estilos</h2>
+                <p>Sistema de diseño y guía de estilos completa</p>
+                <div class="project-buttons">
+                    <button class="btn-repo" onclick="window.open('https://www.figma.com/design/ogcOQYvp1RrEPMYsx7VUHw/gu%C3%ADa-de-estilos-UnaiCastillo?node-id=0-1&p=f')">
+                        <span>📂</span> Guia de estilos
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="scene" id="scene-2">
+            <div class="project-content">
+                <h2>Prototipo Web</h2>
+                <p>Prototipo interactivo de aplicación web</p>
+                <div class="project-buttons">
+                    <button class="btn-repo" onclick="window.open('https://unaicastillo.github.io/prototipo/', '_blank')">
+                        <span>📂</span> Repositorio
+                    </button>
+                    <button class="btn-demo" onclick="window.open('https://github.com/unaicastillo/prototipo', '_blank')">
+                        <span>🚀</span> Ver Proyecto
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="scene" id="scene-3">
+            <div class="project-content">
+                <h2>Kanban Board</h2>
+                <p>Tablero Kanban para gestión de tareas</p>
+                <div class="project-buttons">
+                    <button class="btn-repo" onclick="window.open('https://unaicastillo.github.io/kanban/', '_blank')">
+                        <span>📂</span> Repositorio
+                    </button>
+                    <button class="btn-demo" onclick="window.open('https://github.com/unaicastillo/kanban', '_blank')">
+                        <span>🚀</span> Ver Proyecto
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="scene" id="scene-3">
+            <div class="project-content">
+                <h2>Kanban Board</h2>
+                <p>Tablero Kanban para gestión de tareas</p>
+                <div class="project-buttons">
+                    <button class="btn-repo" onclick="window.open('')">
+                        <span>📂</span> Repositorio
+                    </button>
+                    <button class="btn-demo" onclick="window.open('')">
+                        <span>🚀</span> Ver Proyecto
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
 </html>
